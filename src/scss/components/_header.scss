@@ -1,0 +1,12 @@
+@import '../base/variables';
+
+header {
+  background-color: $color-primary;
+  color: $font-color-primary;
+  padding: 2rem 1.5rem;
+  font-family: $font-satoshi;
+  
+  h1{
+    font-weight: $font-weight-medium;
+  }
+}

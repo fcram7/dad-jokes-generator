@@ -1,0 +1,20 @@
+@import '../../base/variables';
+
+.hero-section {
+  background-color: $color-primary;
+  font-family: $font-satoshi;
+  padding-inline: 1.5rem;
+
+  .hero-content {
+    color: $font-color-primary;
+    text-align: center;
+    padding-block: 6rem;
+    flex-direction: column;
+    gap: 4rem;
+    min-height: 400px;
+
+    h2, h3 {
+      font-weight: $font-weight-regular;
+    }
+  }
+}

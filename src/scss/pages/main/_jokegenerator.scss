@@ -1,0 +1,41 @@
+@use '../../base/variables' as v;
+
+.generator-section {
+  padding-block: 8rem;
+  
+  .generator-section-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .joke-generator-button {
+      width: 10%;
+      margin-top: 2rem;
+      border-radius: 1rem;
+      cursor: pointer;
+      border: solid 1px v.$color-primary;
+      color: v.$color-primary;
+      font-size: 1rem;
+      transition: all 0.4s ease-in-out;
+
+      &:hover {
+        background-color: v.$color-primary;
+        border-color: v.$font-color-primary;
+        color: v.$font-color-primary;
+      }
+    }
+  }
+
+  .joke-output {
+    text-align: center;
+    margin-block: 6rem;
+    color: v.$font-color-primary;
+    font-weight: v.$font-weight-medium;
+  }
+}
+
+.generator-section-title {
+  color: v.$font-color-primary;
+  font-size: 3rem;
+  font-weight: v.$font-weight-regular;
+}
