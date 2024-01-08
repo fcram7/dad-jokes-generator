@@ -1,3 +1,12 @@
-@use 'base';
-@use 'components';
-@use './pages/main';
+//BASE
+@import './base/variables';
+@import './base/base';
+@import './base/breakpoints';
+
+//COMPONENTS
+@import './components/footer';
+@import './components/header';
+
+//PAGES
+@import './pages/main/hero';
+@import './pages/main/jokegenerator';

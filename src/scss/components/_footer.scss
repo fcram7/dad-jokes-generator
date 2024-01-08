@@ -1,12 +1,18 @@
-@use '../base/variables' as v;
-
 .footer-content {
   justify-content: space-between;
   align-items: center;
   height: 5rem;
 
+  @include media ("<=sm") {
+    flex-direction: column;
+  }
+
   h3 {
-    color: v.$font-color-primary;
-    font-weight: v.$font-weight-regular;
+    color: $font-color-primary;
+    font-weight: $font-weight-regular;
+
+    @include media ("<=sm") {
+      padding-bottom: 0.5rem;
+    }
   }
 }
