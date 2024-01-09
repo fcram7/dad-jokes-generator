@@ -14,7 +14,7 @@ const JokeGenerator = () => {
     <section className="generator-section">
       <div className="generator-section-content flex">
         <h1 className="generator-section-title">
-          Click the button below to generate joke!
+          Click the button below to generate joke, HaHa!
         </h1>
 
         <button className="joke-generator-button btn" onClick={() => {
